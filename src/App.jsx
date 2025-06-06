@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
-import Dashboard from './components/Dashboard';
-import Goals from './components/Goals';
-import ActionPlan from './components/ActionPlan';
-import Journal from './components/Journal';
-import MindsetTechniques from './components/MindsetTechniques';
-import StoryVault from './components/StoryVault';
-import StorytellingPractice from './components/StorytellingPractice';
-import TargetCompanies from './components/TargetCompanies';
-import ReportGenerator from './components/ReportGenerator';
+import Dashboard from './components/dashboard';
+import Goals from './components/goals';
+import ActionPlan from './components/actionplan';
+import Journal from './components/journal';
+import MindsetTechniques from './components/mindsettechniques';
+import StoryVault from './components/storyvault';
+import StorytellingPractice from './components/storytellingpractice';
+import TargetCompanies from './components/targetcompanies';
+import ReportGenerator from './components/reportgenerator';
 
 function App() {
   // State for shared data
